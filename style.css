@@ -1,0 +1,113 @@
+*{
+    background-color:lightblue;
+}
+.signin {
+    text-align: center;
+}
+input {
+    font-size: larger;
+    width: 20%;
+}
+.si {
+    font-size:larger;
+    padding-bottom:2em;
+    font-weight: bold;
+    padding-top:3em;
+}
+.bottom {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+.facilities {
+    padding-top:10em;
+    display:grid;
+    justify-content: center;
+    grid-template-columns: 50em 50em;
+    grid-template-rows: 30em 30em 30em;
+    grid-template-areas:
+    "tile1 tile2"
+    "tile3 tile4"
+    "tile5 tile4"
+}
+.tile1 {
+    max-width:100%;
+    font-size: xxx-large;
+    text-align:center;
+    padding-top:17%;
+}
+.tile2 {
+    max-width:90%;
+}
+.tile3 {
+    max-width:100%;
+}
+.tile4 {
+    max-width:90%;
+}
+.tile5 {
+    max-width:100%;
+    position:relative; 
+}
+ul {
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:200%;
+    position:relative;
+}
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-top:2em;
+}
+.titrediv {
+    height: 400%;
+    width:100%;
+}
+.titre {
+    background-image: url('./pexels-photo-669584.jpeg');
+    background-repeat: no-repeat;
+    padding: 400px;
+    padding-top:200px;
+    padding-bottom: 200px;
+    background-size: cover;
+    background-position-x: center;
+    font-size: xxx-large;
+    font-weight:bolder;
+    text-align: center;
+    text-justify: center;
+    color: white;
+}
+.bottom {
+    padding-top:20em
+}
+a {
+    text-decoration: none;
+    color:black;
+   
+    font-size: x-large;
+}
+a:hover {
+    color: darkcyan;
+}
+.sigmamale{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    padding-top:8em;
+}
+.label {
+    padding:1em;
+    font-size:large;
+    align-self:baseline;
+}
+.fp {
+    font-size: medium;
+}
+.butt {
+    padding:1em;
+}
